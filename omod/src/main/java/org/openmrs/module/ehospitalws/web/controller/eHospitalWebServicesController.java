@@ -430,7 +430,6 @@ public class eHospitalWebServicesController {
 				}
 			}
 		} else {
-			// Handle no files in directory
 			response.setStatus(HttpServletResponse.SC_NOT_FOUND);
 			try {
 				response.getWriter().println("No backup files available for download.");
